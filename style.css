@@ -1,0 +1,42 @@
+/* Background color (divs/sections) */
+.white {
+    background-color: white;
+}
+
+/* Spacing for paragraphs */
+p.spacing {
+    line-height: 1.8;
+}
+
+/* Alternating shading for table rows */
+tr:nth-child(even) {
+    background-color: #ededed;
+}
+
+/* Table formatting */
+.data {
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+/* Table cell wrap settings */
+.data td,th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Media query to display hr between graphs on mobile */
+@media (min-width:767px) {
+    .smallhr {
+        display: none;
+    }
+}
+
+/* Media query to change navbar color on mobile */
+@media (max-width:767px) {
+    .navbar-custom {
+        background-color: #29937e !important;
+    }
+}
