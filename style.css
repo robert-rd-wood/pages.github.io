@@ -28,14 +28,14 @@ tr:nth-child(even) {
 }
 
 /* Media query to display hr between graphs on mobile */
-@media (min-width:767px) {
+@media (min-width:724px) {
     .smallhr {
         display: none;
     }
 }
 
 /* Media query to change navbar color on mobile */
-@media (max-width:767px) {
+@media (max-width:724px) {
     .navbar-custom {
         background-color: #29937e !important;
     }
