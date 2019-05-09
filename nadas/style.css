@@ -6,3 +6,9 @@
     text-decoration: none;
     color:#839496 !important;
 }
+
+ol li {
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: decimal;
+  }
